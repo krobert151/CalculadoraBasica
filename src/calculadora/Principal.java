@@ -15,10 +15,15 @@ public class Principal {
 			switch(menu){
 				
 			case 1:
+				num1 = Integer.parseInt(sc.nextLine());
+				num2 = Integer.parseInt(sc.nextLine());
+				System.out.println(num1+num2);
 				
 				break;
 			case 2:
-				
+				num1 = Integer.parseInt(sc.nextLine());
+				num2 = Integer.parseInt(sc.nextLine());
+				System.out.println(num1-num2);
 				break;
 			case 3:
 				
