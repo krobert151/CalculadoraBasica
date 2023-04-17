@@ -26,7 +26,9 @@ public class Principal {
 				System.out.println(num1-num2);
 				break;
 			case 3:
-				
+				num1 = Integer.parseInt(sc.nextLine());
+				num2 = Integer.parseInt(sc.nextLine());
+				System.out.println(num1*num2);
 				break;
 			case 4:
 				
